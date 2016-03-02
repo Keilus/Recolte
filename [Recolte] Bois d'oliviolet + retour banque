@@ -6,10 +6,10 @@
 -- Zone : Route sombre
 ---------------------------------------------
 
-MAX_PODS = 90
-OPEN_BAGS = true
+MAX_PODS = 90 -- Maximum d'objet avant le retour en banque en %
+OPEN_BAGS = true -- Permettre l'ouverture automatique des sacs de récolte
 
-ELEMENTS_TO_GATHER = {  }
+ELEMENTS_TO_GATHER = {  }  -- Élément a supprimé (ID)
 
 function move()
 	return {
