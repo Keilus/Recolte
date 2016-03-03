@@ -7,7 +7,7 @@
 ---------------------------------------------
 
 MAX_PODS = 90 -- Maximum d'objet avant le retour en banque en %
-OPEN_BAGS = true -- Permettre l'ouverture automatique des sacs de récolte
+OPEN_BAGS = true -- Permettre l'ouverture automatique des sacs de récolte (delete cette ligne si ne pas ouvrir sac)
 
 ELEMENTS_TO_GATHER = {  }  -- Élément a supprimé (ID)
 
